@@ -13,9 +13,9 @@ require('canadaPost/class.CanadaPost.php');
 $cp = new CanadaPost(
     new CanadaPostCredentials(
         array(
-        'username'          => '5a149634026803ec',
-        'password'          => '5f26d3e2c903aa888f93fe',
-        'customerNumber'    => '0008119085',
+        'username'          => 'your-username',
+        'password'          => 'your-password',
+        'customerNumber'    => 'your-customerNumber',
         'mode'              => 'test'
         )
     )
